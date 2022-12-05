@@ -1,44 +1,10 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 13.6rem; /* height of your footer */
 }
-
-/* .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
 
 :root {
   --page-margin: 2%;
@@ -192,14 +158,13 @@ main {
   border-radius: var(--content-radius);
   padding: 10px;
   width: 331px;
-  height: 188px;
+  min-height: 188px;
 }
 
 .slogan-text {
   margin: auto;
   font-size: var(--subheading-font-size);
   line-height: 3.5rem;
-  margin: 10px;
 }
 
 .about-me-section {
@@ -376,15 +341,17 @@ main {
   }
 }
 
-/* footer section */
+/* ----------------------------- footer section ----------------------------- */
 .site-footer {
-  padding: 50px;
   background-color: #eb5e28;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-content-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -465,4 +432,16 @@ main {
   .white-logo-link-container {
     margin-top: 50px;
   }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 error page                                 */
+/* -------------------------------------------------------------------------- */
+
+#error-page {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
