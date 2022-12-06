@@ -5,16 +5,19 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/svg+xml" href="/george-fincher-react-portfolio/vite.svg" />
-  <link rel="stylesheet" href="./normalize.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/george-fincher-react-portfolio/assets/apple-touch-icon.9183e30a.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACO0lEQVQ4T6WSy2sTURTGz72ZR5LO5B3FBJVSsNQHRepCC6KbRrvSjRtBXHQhCI2R/hVuuuxKXHTlSiy4CQh2U6g0j4ZEQgvRSmprJNNkJk1pJ3fu9c5gaqw1ULzDcDlnzvfjnO8Mgv88yNZvPRw87xbEs6QHJiDE7LDzK9mNuzWEdKrx15UqyoyB6IpGi7FIcBhjfIJ+WPmrWxlFH25HFVWia6rXHQuoCrz/XAfjwOIgxh+Am+dCILkwLG5oTtw9vPXt4IB4wRlh5U74EW94/kw4CC1Cq6ub2rIq4gcGxWBSBpNDUShru28WKo2rIkKDca/L5j9O5o15B8DJKJMIL7kl8cbpoB82f2hNr0cOSLLn4N16DcZiAZkA1ueKNf8lnwABCS9P54xxLmYOwD65icg1ithHWRRxxyIQj4SgpO0vpb/UkSK5xjUTwCQWjKgC5U1dT60aK7buEGAHmUTkJYdOhXwqMEGAF5ktMC0KzG6RV170ieDG8CqZb031ePHbmEJCOdUBeT2gDPi5qfCt3gBKqVNQ3aP8tXRqWsOpUrt2LMBOZhOh54DwLF8rMMoWOQRxI2/lmwQsymae5Vuzvbv+YwRnDP5fQDhc8MryiE/x0O9aE9YMC++YtCwhY/RJFjp9AQ5kIpTgQ6ddfP87+xZ80glQsO6mcu10r/gvE3s/8rW+5d7dKzQI7BG6wI27f1TcHzDpH9rexaWNNuHLxpeTWb1yIoBdPHfFH7Tvp0W9cZy4bwf/EhzN/wQbAd2Gf9czXgAAAABJRU5ErkJggg==" />
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFXElEQVRYR+1WWWhcZRQ+/11mJjOZzJrUJFpKXBJrkUSlT1UqJpMKioL6oAVfFPog2dAnhWKpCFKwoD5IRR9ErFBR6YtWrHGpIMksSWzSNCQxaMw6mZnMJJOZuXPv7zn35g4zIdtES33wh8v9l7N8Z/nP+Rnc5MFusn747wAYfgYsVWJDT4VsEXSvMODF3tFwIQAv2UOKkrVKNBv4gDEOdGAOxvP+zPV32QVjt+CBvoD/FYdVPlPjcd3wqCDqjpqPR98rABgMVNYoYB3DDRcBqLBabigItDqWU7TGuvNjUd0DfW3uZoGJIfKgLIpQ6/eg5xjkVA2+/z0Kioa+Xnc2/fj6guZH9nuh2m4A/nU6AdF0dgN4VLEh0zAoWqVFfODpnxYjhaNgu/cD4OxF4vY4HVDlsOuChhdSMITfVsNTIUN7QzUCBkhkFPhmfLE0MTZj5PyjzkjqhZIc+AXDYAXrddx0CyitrtoLoiCAitZ/PRGdSGaUWIUIBySBVRNjHs3PqIZbDte74XaPAXhgLrl0LZoaUzh4MnneRHsiyrNLBVuXtZza2H11db4EAC1C7d5uztlZmjtsNvC7nbpQxvlXo5NLz9scnADWUnhcVVVwaXIJVAyHTRLgsTtrQBbpAvFEXlTv6r48TXKOE3+DA8OK6Glg+F7uiqTeNh1TEp3g/SAzr2+AMzhIBLd43WC1yDrtfDzRm8kqD9PcXekAV6UdhuaTMLy4op83+SqhpbZKnw8tpX8+99vCEcJuFxk0e2QzDUatLHnviRAomwKgzf6At40B+5bmFlmCWp8HlLwKs9GYHlsJk7RuPUkVVZu+MDKLDmH1eP/h0TtqoNIiwZnQDPy5ktN1HHJJ4JLN0gLHOsLJS6Zy+m9aCYMB35d49iQReKucsJbN4mcILLmmGjx3fmSGpH9CZ7VOK0iyBT4bW9Jp/VYBGp2SoY/zi5h4TxQr3xJAf6urgQnSMBLYKN7mtaP6YBaqieWMdjYy10tCXDKj0OhmZrBkZjE5ySP3oeutNOE8C4JwT2doeWJXAIgoFPC9gS5/zWQgIOR6CgEl3lvBWZhZNbyy2dhvF+E2/NbNf7MznCrIKqbfshkNBvY5FMiPIvGtupWYdJR8NIJzKbg4GSvIKS5StElGNzpl/Y/e+0vKpZpeGgYjWzeMbbthf5vnWcaET4nHbrNCtdvI8kwuB/Ox5S2tH02qWGupfWGSMTjeEUrqMsoGQPzBgP9HtONBYt7ndYHNYpTdxUQS0pmNZRerYY7DSDK/rotfQdc/hIvSLlqEZMf3QH9rdQsTtH7kEWUJCwpeS8qHvKpq87H4KfxhaWcnyfMUioFEHtaMCqmqLH+4J5QOb+kqsnC7Q/MsFPC+j0pO0Lq4T6Bhp6dmo1RpX6WzmTUNplaN5o9351xHOKXz/GMAwaNOP1gs1K49ZH29H/sEll1FVTMzi3oy2qhjhuN5vCG6ujhwrbEzsrL4rwAgIeGArwPT6h2aOzAh/ZiQC/HlQoEaT6mwkDUSDyPe1RlJ6rQ7jV2FgIT0HgXJafFFcHqI1tSuk6tpXf4KtsYhjL2hnA/HXKnm138AMxO3xbBrACSlr833CN7t74olksevovIU9Wddv9raFVm9vJPl5nlZAIgJK+TnqOopU8AC1t7xFfPVyb/Aa1c42w2IsgFEjrkPqKo4gmleQQkXjiv4ZNNtX1M18WDPQGJqN4r37AFixOfbKXy+naQrR1fPcD2c7ookqR6UNcr2gA7g8Tp7Op25NhjP718vcX/gQ+NufGgYWVnG2BMAkv9hi71uRRW8NNdkbQkr3mwZegukewawF2Wb8fwP4G+ZTwI/IKpp+wAAAABJRU5ErkJggg==" />
+  <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=" />
+  <link rel="stylesheet" href="assets/css/normalize.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Space+Mono&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <title>Vite + React</title>
-  <script type="module" crossorigin src="/george-fincher-react-portfolio/assets/index.28dd5d57.js"></script>
-  <link rel="stylesheet" href="/george-fincher-react-portfolio/assets/index.b1c20bf3.css">
+  <title>George Fincher | Web Developer</title>
+  <script type="module" crossorigin src="/george-fincher-react-portfolio/assets/index.e514b99e.js"></script>
+  <link rel="stylesheet" href="/george-fincher-react-portfolio/assets/index.3cd2be41.css">
 </head>
 
 <body>
