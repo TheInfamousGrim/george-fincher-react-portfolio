@@ -12,7 +12,7 @@ import ErrorPage from './components/ErrorPage';
 
 const App = createBrowserRouter([
     {
-        path: '/',
+        path: '/george-fincher-react-portfolio',
         element: <RootLayout />,
         errorElement: <ErrorPage />,
         children: [
@@ -30,8 +30,8 @@ const App = createBrowserRouter([
             },
             {
                 path: 'contact',
-                element: <ContactForm />
-            }
+                element: <ContactForm />,
+            },
         ],
     },
 ]);

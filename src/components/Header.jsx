@@ -14,22 +14,22 @@ function Header() {
                 <nav>
                     <ul className="navigation-menu">
                         <li className="about-me-item nav-item">
-                            <Link to="/about" id="about-me-link">
+                            <Link to="/george-fincher-react-portfolio/about" id="about-me-link">
                                 about me
                             </Link>
                         </li>
                         <li className="about-me-item nav-item">
-                            <Link to="/portfolio" id="projects-link">
+                            <Link to="/george-fincher-react-portfolio/portfolio" id="projects-link">
                                 My Portfolio
                             </Link>
                         </li>
                         <li className="my-work nav-item">
-                            <Link to="/resume" id="my-work-link">
+                            <Link to="/george-fincher-react-portfolio/resume" id="my-work-link">
                                 My Resume
                             </Link>
                         </li>
                         <li className="contact-me-item nav-item">
-                            <Link to="/contact" id="contact-me-link">
+                            <Link to="/george-fincher-react-portfolio/contact" id="contact-me-link">
                                 contact me
                             </Link>
                         </li>
