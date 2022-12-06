@@ -60,6 +60,7 @@ const ContactForm = () => {
     return (
         <div className="contact-container">
             <h2 className="contact-container__title">Contact Me</h2>
+            <p>Please fill in the contact form if you wish to get in contact with me 😅</p>
             <form className="contact-container__form" ref={form} onSubmit={sendEmail}>
                 <div className="contact-container__name-input ">
                     <label className="contact-container__label" htmlFor="user_name">

@@ -184,6 +184,20 @@ main {
   margin: var(--page-margin);
 }
 
+.non-active-link {
+  transition: all var(--transition-hover);
+}
+
+.active-link {
+  padding: 1rem;
+  border-radius: var(--content-radius);
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px var(--black-olive);
+  background-color: var(--floral-white);
+  color: var(--black-olive);
+  transition: all var(--transition-hover);
+}
+
 /* -------------------------------------------------------------------------- */
 /*                             hero image section                             */
 /* -------------------------------------------------------------------------- */

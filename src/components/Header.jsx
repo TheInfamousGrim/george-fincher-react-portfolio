@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logoInitials from '../assets/logo-initials.svg';
 
 function Header() {
@@ -14,35 +14,41 @@ function Header() {
                 <nav>
                     <ul className="navigation-menu">
                         <li className="about-me-item nav-item">
-                            <Link to="/george-fincher-react-portfolio/about" id="about-me-link">
+                            <NavLink
+                                to="/george-fincher-react-portfolio/about"
+                                id="about-me-link"
+                                className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}
+                            >
                                 about me
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className="about-me-item nav-item">
-                            <Link to="/george-fincher-react-portfolio/portfolio" id="projects-link">
+                            <NavLink
+                                to="/george-fincher-react-portfolio/portfolio"
+                                id="projects-link"
+                                className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}
+                            >
                                 My Portfolio
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className="my-work nav-item">
-                            <Link to="/george-fincher-react-portfolio/resume" id="my-work-link">
+                            <NavLink
+                                to="/george-fincher-react-portfolio/resume"
+                                id="my-work-link"
+                                className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}
+                            >
                                 My Resume
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className="contact-me-item nav-item">
-                            <Link to="/george-fincher-react-portfolio/contact" id="contact-me-link">
-                                contact me
-                            </Link>
-                        </li>
-                        <li className="work-resume nav-item">
-                            <a
-                                href="https://docs.google.com/document/d/1tEmQaS4c8bL4XMCJ6XHtqHHp7zL62VOazIOmlQnm618/edit?usp=sharing"
-                                target="_blank"
-                                rel="noreferrer"
+                            <NavLink
+                                to="/george-fincher-react-portfolio/contact"
+                                id="contact-me-link"
+                                className={({ isActive }) => (isActive ? 'active-link' : 'non-active-link')}
                             >
-                                Resume
-                            </a>
+                                contact me
+                            </NavLink>
                         </li>
-                        <nav-item />
                     </ul>
                 </nav>
             </div>

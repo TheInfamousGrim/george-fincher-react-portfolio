@@ -34,7 +34,7 @@ const Footer = () => (
                         </a>
                     </div>
                     <div className="twitter-link-container">
-                        <a href="https://twitter.com/VaporWhy" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/GrimFunk69" target="_blank" rel="noopener noreferrer">
                             <img src={twitterLogo} alt="twitter logo" />
                         </a>
                     </div>
