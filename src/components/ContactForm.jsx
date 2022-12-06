@@ -1,17 +1,21 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
+import { useForm } from 'react-hook-form';
+
 import { validateEmail } from '../utils/helpers';
 
 import Modal from './Modal/Modal';
 
 const ContactForm = () => {
+    // State for form
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [textarea, setTextarea] = useState('');
     const [modalOpen, setModalOpen] = useState(false);
     const [modalText, setModalText] = useState('');
 
+    // Modal open and close functions
     const close = () => setModalOpen(false);
     const open = () => setModalOpen(true);
 
@@ -84,14 +88,16 @@ const ContactForm = () => {
                 </div>
                 <div className="contact-container__message-input">
                     <label htmlFor="message">Message</label>
-                    <textarea
-                        className="contact-container__textarea"
-                        id="message"
-                        name="message"
-                        onChange={(e) => setTextarea(e.target.value)}
-                        value={textarea || ''}
-                        placeholder="Please enter your message here..."
-                    />
+                    <div className="info-box-wrapper">
+                        <textarea
+                            className="contact-container__textarea contact-container__input"
+                            id="message"
+                            name="message"
+                            onChange={(e) => setTextarea(e.target.value)}
+                            value={textarea || ''}
+                            placeholder="Please enter your message here..."
+                        />
+                    </div>
                 </div>
                 <div className="contact-container__send-btn-container">
                     <motion.input

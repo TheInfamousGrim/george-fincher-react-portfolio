@@ -162,7 +162,12 @@ button {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  background-color: var(--flame);
+  background: rgb(235, 94, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 94, 40, 1) 0%,
+    rgba(229, 141, 64, 1) 100%
+  );
   border-radius: var(--content-radius);
   padding: 2rem;
   font-family: var(--poppins-bold-family);
@@ -581,12 +586,39 @@ main {
   font-size: 1rem;
 }
 
+.info-box-wrapper {
+  position: relative;
+}
+
+.info-box {
+  user-select: none;
+  width: 300px;
+  background: rgb(235, 94, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 94, 40, 1) 0%,
+    rgba(229, 141, 64, 1) 100%
+  );
+  font-size: 14px;
+  padding: 12px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  left: 270px;
+  top: 50px;
+  position: absolute;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                               footer section                               */
 /* -------------------------------------------------------------------------- */
 
 .site-footer {
-  background-color: #eb5e28;
+  background: rgb(235, 94, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 94, 40, 1) 0%,
+    rgba(229, 141, 64, 1) 100%
+  );
   position: absolute;
   bottom: 0;
   width: 100vw;
