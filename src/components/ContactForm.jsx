@@ -5,14 +5,6 @@ import { validateEmail } from '../utils/helpers';
 
 import Modal from './Modal/Modal';
 
-function MessageSuccess() {
-    return <p>Message was successfully sent!</p>;
-}
-
-function MessageFailure(props) {
-    return <p>Error: {props}</p>;
-}
-
 const ContactForm = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
