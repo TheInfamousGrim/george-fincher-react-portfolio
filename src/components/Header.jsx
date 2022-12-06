@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Outlet, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logoInitials from '../assets/logo-initials.svg';
 
 function Header() {

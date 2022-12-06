@@ -22,6 +22,10 @@ const App = createBrowserRouter([
                 path: 'about',
                 element: <About />,
             },
+            {
+                path: 'portfolio',
+                element: <Portfolio />,
+            },
         ],
     },
 ]);
