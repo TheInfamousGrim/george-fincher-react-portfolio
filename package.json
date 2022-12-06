@@ -10,8 +10,11 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "framer-motion": "^7.6.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
     "react-router-dom": "^6.4.4"
   },
   "devDependencies": {
