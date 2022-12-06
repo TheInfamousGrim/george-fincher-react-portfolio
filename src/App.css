@@ -65,6 +65,20 @@ h3 {
   margin: auto;
 }
 
+.btn-general {
+  background-color: var(--flame);
+  text-align: center;
+  padding: 1rem;
+  border-radius: var(--content-radius);
+}
+
+.btn-general:hover,
+.btn-general:focus {
+  background-color: var(--floral-white);
+  color: var(--black-olive);
+  cursor: pointer;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                            header and navigation                           */
 /* -------------------------------------------------------------------------- */
@@ -412,6 +426,37 @@ main {
 @media only screen and (max-width: 666px) {
   .portfolio-cards-container {
     grid-template-columns: 1fr;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 resume page                                */
+/* -------------------------------------------------------------------------- */
+
+.resume-page-container {
+  margin: 0px 2vw 3rem 2vw;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.resume-container {
+  align-self: flex-start;
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.devicons {
+  font-size: 4rem;
+  display: flex;
+  gap: 2rem;
+  flex-flow: wrap;
+}
+
+@media only screen and (max-width: 840px) {
+  .resume-page-container {
+    flex-direction: column;
   }
 }
 

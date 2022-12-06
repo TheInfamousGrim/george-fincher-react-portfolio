@@ -26,6 +26,10 @@ const App = createBrowserRouter([
                 path: 'portfolio',
                 element: <Portfolio />,
             },
+            {
+                path: 'resume',
+                element: <Resume />,
+            },
         ],
     },
 ]);
