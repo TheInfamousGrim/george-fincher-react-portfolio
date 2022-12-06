@@ -6,7 +6,7 @@ function Header() {
     return (
         <header id="masthead" className="site-header">
             <div className="logo-container">
-                <Link className="logo-initials" to="/">
+                <Link className="logo-initials" to="/george-fincher-react-portfolio">
                     <img src={logoInitials} alt="George Fincher logo with initials" />
                 </Link>
             </div>

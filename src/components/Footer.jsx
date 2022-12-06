@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import githubLogo from '../assets/github-logo.svg';
 import linkedinLogo from '../assets/linkedin-logo.svg';
 import twitterLogo from '../assets/twitter-logo.svg';
@@ -48,13 +49,13 @@ const Footer = () => (
                 </div>
             </div>
             <div className="white-logo-link-container">
-                <a href="https://theinfamousgrim.github.io/george-fincher-web-portfolio/" className="home-link">
+                <Link className="logo-initials" to="/george-fincher-react-portfolio">
                     <img
                         src={whiteLogo}
                         alt="an inverted escher like triangle made up of prisms"
                         className="white-logo-svg"
                     />
-                </a>
+                </Link>
             </div>
         </div>
     </footer>

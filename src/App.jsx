@@ -9,6 +9,7 @@ import ContactForm from './components/ContactForm';
 import Resume from './components/Resume';
 import RootLayout from './routes/RootLayout';
 import ErrorPage from './components/ErrorPage';
+import Index from './routes';
 
 const App = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const App = createBrowserRouter([
         element: <RootLayout />,
         errorElement: <ErrorPage />,
         children: [
+            {
+                index: true,
+                element: <About />,
+            },
             {
                 path: 'about',
                 element: <About />,
