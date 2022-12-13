@@ -5,6 +5,7 @@ import PortfolioCards from './PortfolioCards';
 
 import zenfociImg from '../assets/imgs/Screenshot-ZenFoci-Lifestyle.png';
 import uoeImg from '../assets/imgs/screenshot-UOE-merch-shop.png';
+import fakebookImg from '../assets/imgs/Fakebook-screenshot.png';
 import semImg from '../assets/imgs/semantic-refactor-site-image.jpg';
 import passImg from '../assets/imgs/password-generator-image.jpg';
 import quizImg from '../assets/imgs/code-quiz-image.jpg';
@@ -31,6 +32,16 @@ const projectData = [
         techTags: 'Node.js, Express, MySQL, Sequelize, ORM, MVC',
         live: 'https://fast-retreat-51072.herokuapp.com/',
         github: 'https://github.com/TheInfamousGrim/university-merch-store-fullstack-app',
+    },
+    {
+        id: 3,
+        img: fakebookImg,
+        altText: 'A facebook clone made in the fakest way',
+        titleFirst: 'Fake',
+        titleSecond: 'Book',
+        techTags: 'Node.js, React, GraphQL, Mongodb, Express',
+        live: 'https://agile-taiga-04390.herokuapp.com/',
+        github: 'https://github.com/TheInfamousGrim/Fakebook',
     },
 ];
 
