@@ -1,6 +1,6 @@
-# Text Editor Starter Code
+# My Portfolio
 
-A React.js web portfolio designed to show off my mad skills with react 😉.
+A React web portfolio designed to show off my mad skills with react 😉.
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 ![Last Commit to Current Repo](https://img.shields.io/github/last-commit/TheInfamousGrim/george-fincher-react-portfolio)
