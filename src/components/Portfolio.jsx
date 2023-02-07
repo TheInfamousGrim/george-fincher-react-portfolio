@@ -6,7 +6,7 @@ import PortfolioCards from './PortfolioCards';
 import zenfociImg from '../assets/imgs/Screenshot-ZenFoci-Lifestyle.png';
 import uoeImg from '../assets/imgs/screenshot-UOE-merch-shop.png';
 import fakebookImg from '../assets/imgs/Fakebook-screenshot.png';
-import semImg from '../assets/imgs/semantic-refactor-site-image.jpg';
+import tenziesImg from '../assets/imgs/Tenzies-game-react-GrimFunk-development.png';
 import passImg from '../assets/imgs/password-generator-image.jpg';
 import quizImg from '../assets/imgs/code-quiz-image.jpg';
 import schedImg from '../assets/imgs/day-planner-image.jpg';
@@ -47,17 +47,17 @@ const projectData = [
 
 const portfolioData = [
     {
-        id: 3,
-        img: semImg,
-        altText: 'an seo site with a header, a large hero image of a boardroom just below with content below that',
-        titleFirst: 'Semantic',
-        titleSecond: 'HTML',
-        techTags: 'HTML, CSS',
-        live: 'https://theinfamousgrim.github.io/Code-Refactor-Horiseon/',
-        github: 'https://github.com/TheInfamousGrim/Code-Refactor-Horiseon',
+        id: 4,
+        img: tenziesImg,
+        altText: 'A tenzies game site made with react',
+        titleFirst: 'Tenzies',
+        titleSecond: 'Game',
+        techTags: 'React, Vite, Tailwind',
+        live: 'https://tenzies-game-react-ten.vercel.app/',
+        github: 'https://github.com/TheInfamousGrim/Tenzies-Game-React',
     },
     {
-        id: 4,
+        id: 5,
         img: passImg,
         altText: 'an iphone being held by a hand with a locked screen showing',
         titleFirst: 'Password',
@@ -67,7 +67,7 @@ const portfolioData = [
         github: 'https://github.com/TheInfamousGrim/parakeet-password-generator',
     },
     {
-        id: 5,
+        id: 6,
         img: quizImg,
         altText: 'two rubix cubes stacked on top of each other that are unaligned',
         titleFirst: 'Code',
@@ -77,7 +77,7 @@ const portfolioData = [
         github: 'https://github.com/TheInfamousGrim/code-quiz-vanilla-js',
     },
     {
-        id: 6,
+        id: 7,
         img: schedImg,
         altText:
             'a granite desk with an assortment of items such as a planner on a sheet of paper, a pencil and an empty mug of coffee',
@@ -88,7 +88,7 @@ const portfolioData = [
         github: 'https://github.com/TheInfamousGrim/personal-work-day-scheduler',
     },
     {
-        id: 7,
+        id: 8,
         img: weatherImg,
         altText:
             'A city with a sky split in two, stormy clouds with a lightning bolt on the left and blue sky on the right',

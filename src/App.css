@@ -439,20 +439,6 @@ main {
   background-color: var(--flame);
 }
 
-/* cards hover and focus states */
-.portfolio-cards-general-container:hover #general-card-title-id h2,
-.portfolio-cards-general-container:focus #general-card-title-id h2 {
-  transition: color var(--transition-hover) ease;
-  color: var(--black-olive);
-}
-
-.portfolio-cards-general-container:hover #general-card-title-id,
-.portfolio-cards-general-container:focus #general-card-title-id {
-  transition: background-color var(--transition-hover) ease;
-  background-color: var(--floral-white);
-  color: var(--black-olive);
-}
-
 /* general card stylings */
 
 .main-card-title-container {

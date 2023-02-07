@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -25,5 +26,5 @@
     "gh-pages": "^4.0.0",
     "vite": "^3.2.3"
   },
-  "homepage": "https://github.com/TheInfamousGrim/george-fincher-react-portfolio"
+  "homepage": "https://theinfamousgrim.github.io/george-fincher-react-portfolio"
 }
